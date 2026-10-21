@@ -1,0 +1,186 @@
+import { SolfeggioTone, BrainwaveBand } from '../types';
+
+export const SOLFEGGIO_TONES: SolfeggioTone[] = [
+  {
+    freq: 174,
+    name: '174 Hz',
+    desc: 'Deep relaxation, pain relief, and a sense of physical security.',
+    category: 'Foundation',
+  },
+  {
+    freq: 285,
+    name: '285 Hz',
+    desc: 'Tissue repair, cellular healing, and body awareness.',
+    category: 'Regeneration',
+  },
+  {
+    freq: 396,
+    name: '396 Hz',
+    desc: 'Releasing fear, guilt, and grounding the root chakra.',
+    category: 'Root Chakra',
+  },
+  {
+    freq: 417,
+    name: '417 Hz',
+    desc: 'Undoing negative situations, facilitating emotional change, and clearing blocks.',
+    category: 'Sacral Chakra',
+  },
+  {
+    freq: 432,
+    name: '432 Hz',
+    desc: 'Alternative musical tuning associated with reduced heart rate and relaxation.',
+    category: 'Verdi Natural Tuning',
+  },
+  {
+    freq: 440,
+    name: '440 Hz',
+    desc: 'The international standard musical pitch (A4) used for general orchestration and tuning.',
+    category: 'Concert Pitch',
+  },
+  {
+    freq: 528,
+    name: '528 Hz',
+    desc: 'Claimed "love frequency" or "DNA repair" tone tied to transformation and emotional renewal.',
+    category: 'Transformation',
+  },
+  {
+    freq: 639,
+    name: '639 Hz',
+    desc: 'Heart chakra resonance meant to improve relationship harmony and empathy.',
+    category: 'Heart Chakra',
+  },
+  {
+    freq: 741,
+    name: '741 Hz',
+    desc: 'Throat chakra tone focused on mental clarity, problem-solving, and expression.',
+    category: 'Throat Chakra',
+  },
+  {
+    freq: 852,
+    name: '852 Hz',
+    desc: 'Third-eye awakening, intuition, and spiritual alignment.',
+    category: 'Third Eye',
+  },
+  {
+    freq: 963,
+    name: '963 Hz',
+    desc: 'Crown chakra or "God frequency" associated with higher consciousness and unity.',
+    category: 'Crown Chakra',
+  },
+];
+
+export const BRAINWAVE_BANDS: BrainwaveBand[] = [
+  {
+    id: 'delta',
+    name: 'Delta',
+    min: 0.5,
+    max: 4.0,
+    defaultDelta: 2.5,
+    desc: 'Deep, dreamless sleep and physical recovery.',
+    details: 'Slowest brainwave band associated with immune restoration, growth hormone release, and somatic renewal.',
+    color: '#38bdf8', // Sky Blue
+  },
+  {
+    id: 'theta',
+    name: 'Theta',
+    min: 4.0,
+    max: 8.0,
+    defaultDelta: 6.0,
+    desc: 'Light sleep, deep meditation, and creativity.',
+    details: 'Hypnagogic state bridging conscious and unconscious mind, memory consolidation, and intuitive insight.',
+    color: '#a855f7', // Electric Purple
+  },
+  {
+    id: 'alpha',
+    name: 'Alpha',
+    min: 8.0,
+    max: 12.0,
+    defaultDelta: 10.0,
+    desc: 'Relaxed alertness, calm, and mild focus.',
+    details: 'Smooth bridge state of effortless immersion, stress reduction, and flow state performance.',
+    color: '#00f0ff', // Vivid Neon Cyan
+  },
+  {
+    id: 'beta',
+    name: 'Beta',
+    min: 12.0,
+    max: 30.0,
+    defaultDelta: 18.0,
+    desc: 'Active thinking, concentration, and everyday alertness.',
+    details: 'Fast-wave state associated with conscious executive tasks, critical analysis, and active problem-solving.',
+    color: '#f59e0b', // Amber Gold
+  },
+  {
+    id: 'gamma',
+    name: 'Gamma',
+    min: 30.0,
+    max: 100.0,
+    defaultDelta: 40.0,
+    desc: 'High-level cognitive processing and problem-solving.',
+    details: 'Fastest neural synchrony band facilitating multi-sensory information binding, epiphany states, and heightened perception.',
+    color: '#ff007f', // Hot Magenta
+  },
+];
+
+export const ANCIENT_MEGALITHIC_TONES: SolfeggioTone[] = [
+  {
+    freq: 110,
+    name: '110 Hz Megalithic Baseline',
+    desc: 'Uniform standing wave documented across Neolithic & Megalithic stone chambers (Ħal Saflieni, Newgrange, Chavín). Causes left temporal deactivation and right prefrontal emotional shift.',
+    category: 'Universal Archaeoacoustic',
+  },
+  {
+    freq: 117,
+    name: "117 Hz King's Chamber Primary Hum",
+    desc: "Natural acoustic eigenmode of the Great Pyramid King's Chamber (117–121 Hz). Resonates with adult male vocal chanting.",
+    category: 'Pyramid Eigenmode',
+  },
+  {
+    freq: 121,
+    name: "121 Hz King's Chamber Upper Hum",
+    desc: "Upper standing wave boundary of the King's Chamber rectangular quartz-granite cavity.",
+    category: 'Pyramid Eigenmode',
+  },
+  {
+    freq: 49.5,
+    name: "49.5 Hz King's Chamber Resonant Peak",
+    desc: "Highest recorded amplitude acoustic resonance spike in acoustic mapping tests inside the Great Pyramid.",
+    category: 'Pyramid Eigenmode',
+  },
+  {
+    freq: 30,
+    name: '30 Hz Subharmonic Cluster',
+    desc: 'Secondary resonance cluster mapped inside the King’s Chamber granite enclosure.',
+    category: 'Pyramid Subharmonic',
+  },
+  {
+    freq: 16,
+    name: '16 Hz Pyramid Air Shaft Infrasound',
+    desc: 'Passive infrasound generated by wind currents blowing across the Great Pyramid’s precision air shafts.',
+    category: 'Infrasound',
+  },
+  {
+    freq: 5.13,
+    name: '5.13 Hz Subterranean Infrasound',
+    desc: 'Deep subterranean chamber resonance tube generating ultra-low infrasound frequencies below human hearing threshold.',
+    category: 'Infrasound',
+  },
+  {
+    freq: 112,
+    name: "112 Hz Wayland's Smithy Standing Wave",
+    desc: 'Longitudinal acoustic harmonic node recorded in Oxfordshire megalithic burial mound.',
+    category: 'Megalithic Chamber',
+  },
+  {
+    freq: 70,
+    name: '70 Hz Ħal Saflieni Double Resonance',
+    desc: 'Deep subharmonic resonance frequency measured in the Oracle Room of Malta’s subterranean hypogeum.',
+    category: 'Subterranean Chamber',
+  },
+  {
+    freq: 1116,
+    name: '1116 Hz El Castillo Quetzal Chirp',
+    desc: 'Acoustic diffraction grating echo produced by stair riser reflections at Chichen Itza pyramid.',
+    category: 'Acoustic Diffraction',
+  },
+];
